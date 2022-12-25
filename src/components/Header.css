@@ -1,0 +1,35 @@
+.custom {
+  display: block;
+}
+
+.topheader {
+  background-color: #41adbe;
+  height: 32px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.inside {
+  width: 75%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo > img {
+  width: 6%;
+}
