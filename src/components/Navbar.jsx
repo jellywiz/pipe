@@ -4,14 +4,11 @@ import logo from '../img/logo-1-removebg-preview.png';
 
 function Navbar() {
   return (
-    <div>
+    <div className="Navbar">
       <nav>
         <ul>
           <a href="#home">
             <li>Home</li>
-          </a>
-          <a href="#about">
-            <li>About</li>
           </a>
           <a href="#service">
             <li>Services</li>

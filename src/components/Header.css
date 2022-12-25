@@ -1,12 +1,12 @@
 .custom {
   display: block;
+  padding-bottom: 10px;
 }
 
 .topheader {
   background-color: #41adbe;
   height: 32px;
   width: 100%;
-  position: fixed;
   top: 0;
   left: 0;
   z-index: 100;
