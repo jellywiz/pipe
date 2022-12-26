@@ -24,11 +24,12 @@ function Slideshow({ images, interval }) {
 
   return (
     <div className="slideshow">
-      <img src={images[currentIndex]} alt="slideshow image" />
+      <h1>Gallary</h1>
+      <img src={images[currentIndex].src} alt="slideshow image" />
       <div className="slideshow-circles">
         {images.map((image, index) => (
           <div
-            key={image}
+            key={image.id}
             className={`slideshow-circle ${
               index === selectedIndex ? 'selected' : ''
             }`}

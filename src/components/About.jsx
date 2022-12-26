@@ -4,7 +4,7 @@ import './About.css';
 
 function About() {
   return (
-    <div className="About-container">
+    <div id="about-us" className="About-container">
       <h1>
         Mahan Plast Manufacturer of PVC PVC and UPVC Sewage, Water Supply and
         Fittings

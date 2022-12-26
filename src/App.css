@@ -4,3 +4,13 @@
   color: #092d34;
   text-align: center;
 }
+
+.top-header-nav {
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  background-color: #fff;
+  height: 108px;
+  z-index: 999;
+}
