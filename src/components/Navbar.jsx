@@ -21,6 +21,7 @@ function Navbar() {
           <img src={logo} alt="" />
         </div>
       </nav>
+      <hr />
     </div>
   );
 }
