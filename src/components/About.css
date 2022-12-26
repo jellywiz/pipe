@@ -1,0 +1,28 @@
+.About-container > h1 {
+  font-size: 1.7em;
+  color: #41adbe;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  width: 75%;
+  margin: auto;
+  gap: 60px;
+}
+
+.about-paragraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  width: 50%;
+}
+
+/* .about-paragraph > p {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+} */
