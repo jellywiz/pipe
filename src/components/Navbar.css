@@ -37,3 +37,10 @@ a {
   width: 10%;
   cursor: pointer;
 }
+
+hr {
+  width: 75%;
+  margin: auto;
+  border: 1px solid #41adbe;
+  margin-bottom: 10px;
+}
