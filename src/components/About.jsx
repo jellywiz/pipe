@@ -7,26 +7,21 @@ function About() {
     <div id="about-us" className="About-container">
       <div className="background"></div>
       <div className="aboutus-header-text">
-        <h1>Al Aman Plast</h1>
+        <h1>الأمان بلاست</h1>
         <div className="about">
           <div>
             <img src={logo} alt="" />
           </div>
           <div className="about-paragraph">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse fermentum tempus purus, nec molestie mauris convallis
-              nec. Nam suscipit elementum felis, ac eleifend massa posuere
-              volutpat. Proin iaculis fermentum lacus imperdiet condimentum.
-              Aliquam cursus vehicula lacus eget finibus. Sed vehicula ante
-              vitae orci pulvinar, ut suscipit nibh fringilla. Nullam sed nisi
-              justo. Quisque suscipit ultricies massa a finibus. Fusce eget
-              sagittis justo, sed sagittis odio. Suspendisse nibh orci,
-              dignissim a dui eu, auctor semper justo. Sed varius dolor non
-              elementum consequat. Vestibulum eget tellus varius, accumsan velit
-              quis, tincidunt ipsum. Donec vitae ipsum ut dolor scelerisque
-              dignissim et a enim. Maecenas dignissim dui in felis lobortis
-              euismod. Sed tincidunt in leo at fermentum.
+              شركة الأمان بلاست لصناعة المواسير وتصنيع مواسير ووصلات PVCU بجميع
+              المقاسات المطلوبة. تصنع منتجات شركة الأمان بلاست من مواد خام نقية
+              ، وتقوم شركة الأمان بلاست بتصنيع الأنابيب والتجهيزات (PP-R) بجودة
+              عالية مع تقنية متقدمة ، وتشتهر هذه المادة بقوتها واستقرارها
+              ومقاومتها لدرجات الحرارة المرتفعة. الخصائص الفيزيائية والكيميائية
+              للمادة تلبي المتطلبات الخاصة لإمدادات مياه الشرب والصرف الصحي. نحن
+              مصممون على إحداث فرق حقيقي من خلال تقديم حلول أنابيب عالية التقنية
+              تمثل طفرة في الصناعة لبناء أكثر المشاريع شهرة في العالم
             </p>
           </div>
         </div>

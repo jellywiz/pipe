@@ -51,27 +51,22 @@ function Navbar() {
             <ul className="nav-mob">
               <li className="nav-mob-item">
                 <a onClick={toggleMenu} href="#home">
-                  Home
-                </a>
-              </li>
-              <li className="nav-mob-item">
-                <a onClick={toggleMenu} href="#service">
-                  Services
+                  الصفحة الرئيسية
                 </a>
               </li>
               <li className="nav-mob-item">
                 <a onClick={toggleMenu} href="#about-us">
-                  About Us
+                  معلومات عنا
                 </a>
               </li>
               <li className="nav-mob-item">
                 <a onClick={toggleMenu} href="#gallery">
-                  Gallery
+                  صالة عرض
                 </a>
               </li>
               <li className="nav-mob-item">
                 <a onClick={toggleMenu} href="#contact-us">
-                  Contact Us
+                  اتصل بنا
                 </a>
               </li>
             </ul>
@@ -81,19 +76,16 @@ function Navbar() {
           {!menuOpen && (
             <ul>
               <li className="nav-item">
-                <a href="#home">Home</a>
+                <a href="#home"> الصفحة الرئيسية</a>
               </li>
               <li className="nav-item">
-                <a href="#service">Services</a>
+                <a href="#about-us">معلومات عنا</a>
               </li>
               <li className="nav-item">
-                <a href="#about-us">About Us</a>
+                <a href="#gallery">صالة عرض</a>
               </li>
               <li className="nav-item">
-                <a href="#gallery">Gallery</a>
-              </li>
-              <li className="nav-item">
-                <a href="#contact-us">Contact Us</a>
+                <a href="#contact-us">اتصل بنا</a>
               </li>
             </ul>
           )}
