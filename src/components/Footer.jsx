@@ -1,26 +1,25 @@
 import React from 'react';
-import './Header.css';
 import { FaFacebook } from 'react-icons/fa';
 import { AiTwotoneMail } from 'react-icons/ai';
 import { BsTelegram } from 'react-icons/bs';
 
-function Header() {
+import './Footer.css';
+
+function Footer() {
   return (
-    <div className="custom">
-      <div className="topheader">
-        <div className="inside">
-          <div className="logo">
-            <p>الأمان بلاست</p>
-          </div>
-          <div className="social">
+    <div id="contact-us" className="footer-container">
+      <div className="footer-inside">
+        <div className="footer-socials">
+          <h1>الاجتماعية</h1>
+          <div className="tags">
             <a href="https://www.facebook.com/profile.php?id=100091528807705&mibextid=LQQJ4d">
-              <FaFacebook className="header-icon" />
+              <FaFacebook className="social-icon" />
             </a>
             <a href="mailto:alamanplastcompany@gmail.com">
-              <AiTwotoneMail className="header-icon" />
+              <AiTwotoneMail className="social-icon" />
             </a>
             <a href="https://t.me/alamanplast">
-              <BsTelegram className="header-icon" />
+              <BsTelegram className="social-icon" />
             </a>
           </div>
         </div>
@@ -29,4 +28,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Footer;
