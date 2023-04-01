@@ -1,41 +1,14 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import Gallery from './Gallery';
 import './Slideshow.css';
 
-function Slideshow({ images, interval }) {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [selectedIndex, setSelectedIndex] = useState(0);
-
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setCurrentIndex((currentIndex + 1) % images.length);
-    }, interval);
-    return () => clearInterval(intervalId);
-  }, [currentIndex, images.length, interval]);
-
-  useEffect(() => {
-    setSelectedIndex(currentIndex);
-  }, [currentIndex]);
-
-  const selectImage = (index) => {
-    setSelectedIndex(index);
-    setCurrentIndex(index);
-  };
-
+function Slideshow({ images }) {
   return (
-    <div className="slideshow">
-      <h1>Gallary</h1>
-      <img src={images[currentIndex].src} alt="slideshow image" />
-      <div className="slideshow-circles">
-        {images.map((image, index) => (
-          <div
-            key={image.id}
-            className={`slideshow-circle ${
-              index === selectedIndex ? 'selected' : ''
-            }`}
-            onClick={() => selectImage(index)}
-          />
-        ))}
+    <div className="slide">
+      <div className="slideshow">
+        <h1>Gallary</h1>
+        <Gallery galImage={images} />
       </div>
     </div>
   );

@@ -1,0 +1,91 @@
+.footer-container {
+  padding-block: 60px;
+  background-color: var(--light-bg-color);
+  font-size: 14px;
+  color: #777;
+  display: block;
+}
+
+.footer-socials {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.tags {
+  text-align: center;
+  align-items: center;
+  width: 50%;
+}
+
+.contact-us-icon {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.contact-us-container {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+.contact-us {
+  text-align: center;
+  align-items: center;
+  width: 50%;
+}
+
+.footer-inside {
+  width: 960px;
+  display: flex;
+  margin-inline: auto;
+}
+
+/* Add a media query for screens with a width less than or equal to 480px */
+@media only screen and (max-width: 800px) {
+  .footer-container {
+    width: 100%;
+    padding-block: 30px;
+  }
+
+  /* Make the footer inside element take up the full width of the screen */
+  .footer-inside {
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contact-us {
+    width: 100%;
+  }
+
+  /* Make the socials and tags elements take up the full width of the screen */
+  .footer-socials,
+  .tags {
+    width: 100%;
+  }
+
+  /* Reduce the font size of the footer text */
+  .footer-container {
+    font-size: 12px;
+  }
+
+  /* Reduce the size of the social icons */
+  .social-icon {
+    width: 20px;
+    height: 20px;
+  }
+}

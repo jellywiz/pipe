@@ -10,13 +10,13 @@ function Header() {
       <div className="topheader">
         <div className="inside">
           <div className="logo">
-            <p>Company Name</p>
+            <p>Al Aman Plast</p>
           </div>
           <div className="social">
-            <FaFacebook />
-            <AiFillInstagram />
-            <AiTwotoneMail />
-            <BsTelegram />
+            <FaFacebook className="header-icon" />
+            <AiFillInstagram className="header-icon" />
+            <AiTwotoneMail className="header-icon" />
+            <BsTelegram className="header-icon" />
           </div>
         </div>
       </div>

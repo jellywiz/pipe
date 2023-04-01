@@ -4,12 +4,21 @@
 }
 
 .topheader {
-  background-color: #41adbe;
+  /* background-image: url(../img/header.gif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+  background-color: var(--primary-color);
   height: 32px;
   width: 100%;
   top: 0;
   left: 0;
   z-index: 100;
+}
+
+.header-icon {
+  color: rgb(0, 162, 255);
+  border-radius: 50%;
 }
 
 .inside {
@@ -32,4 +41,10 @@
 
 .logo > img {
   width: 6%;
+}
+
+.logo > p {
+  font-family: 'East Sea Dokdo', serif;
+  color: rgb(53, 176, 247);
+  font-size: 1.5em;
 }
